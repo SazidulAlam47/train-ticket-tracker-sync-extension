@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Train Ticket Tracker Sync",
+    "version": "1.0.0",
+    "description": "Sync token between BD train sites",
+    "permissions": ["storage", "scripting", "tabs"],
+    "host_permissions": [
+        "https://eticket.railway.gov.bd/*",
+        "https://train-ticket-tracker-bd.vercel.app/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Train Ticket Tracker Sync"
+    },
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
